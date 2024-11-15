@@ -26,11 +26,11 @@ class Raketka_left(GameSprite):
             self.rect.y -= self.speed
         if keys[K_s] and self.rect.y < win_width - 80:
             self.rect.y += self.speed
-win_width = 500
-win_height = 500
+win_width = 700
+win_height = 700
 window = display.set_mode((win_width, win_height))
 display.set_caption("Ping_pong")
-field = (255, 120, 255)
+field = (120, 255, 120)
 window.fill(field)
 game = True
 fps = 60
